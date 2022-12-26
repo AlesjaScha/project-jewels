@@ -12,7 +12,8 @@ const Jewels = () =>{
             if (selectedCategory=== "ALLE")return true;
             return selectedCategory===jewellery.category;
         })
-        .map(jewellery=><Jewellery jewellery={jewellery}/>)}
+        .map((jewellery,index)=><Jewellery key={index} jewellery={jewellery}/>)}
+        
 
 
     </div>
