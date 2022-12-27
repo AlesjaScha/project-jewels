@@ -9,7 +9,7 @@ const Jewellery = ({jewellery})=>{
     
     return (
         <div>
-            <img src= {`${jewellery.img}.jpg`}/>
+            <img src= {`${jewellery.img}.jpg`}alt="bildZwei"/>
 
             <div className="title">
             <h2>{jewellery.name}</h2>
@@ -25,7 +25,7 @@ const Jewellery = ({jewellery})=>{
 
             <div className="btn">
               
-            <img className="icon"src ="https://img.icons8.com/fluency/512/wedding-gift.png"/>
+            <img className="icon"src ="https://img.icons8.com/fluency/512/wedding-gift.png"alt="bildDrei"/>
             
             <button className="btnTwo"onClick={()=>{dispatch(addItemToCart({jewellery,quantity}))}}>In den Warenkorb</button>
             </div>
