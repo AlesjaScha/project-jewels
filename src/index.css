@@ -98,62 +98,55 @@ p,h3,h1,h2{
   font-family: 'Playfair Display', serif;
 
 }
-
-@media all and (max-width:800){
-
-  App{
+@media all and (max-width: 800px) {
+  .App{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 20px;
   }
   .image{
-    width: 500px;
+    width: 700px;
     margin: 10px;
-
+    border: 20px solid #cfb467 ; 
   }
-  .title{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  
     
-  }
-  .price{
-    display: flex;
-    justify-content: center;
-  }
-  .photo{
-    display: flex;
-    justify-content: center;
-    
-    
-  }
 
 }
-@media all and (max-width:500){
-
-  App{
+@media all and (max-width: 500px) {
+  .App{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .block{
+    padding: 10px;
+    margin: 5px;
   }
   .image{
-    width: 300px;
+    width: 350px;
     margin: 10px;
+    border: 20px solid #cfb467 ; 
+  }
+  img{
+    width: 300px;
+  }
+  h1{
+    font-size: 25px;
+  }
 
-  }
-  .title{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-  }
-  .price{
-    display: flex;
-    justify-content: center;
-  }
-  .photo{
-    display: flex;
-    justify-content: center;
-    
-    
-  }
+
+
+
 }
 
