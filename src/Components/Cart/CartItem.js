@@ -1,5 +1,4 @@
 import dataJewels from "../../data/dataJewels";
-
 import { useDispatch } from "react-redux";
 import { removeItemFromCart } from "../../redux/cartSlice";
 
