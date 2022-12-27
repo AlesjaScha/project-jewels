@@ -13,18 +13,12 @@ const CartItem = ({cartItem}) =>{
         <p>CHF {jewels.price * cartItem.quantity}</p>
 
         <span onClick={()=>dispatch(removeItemFromCart({cartItemId:cartItem.id}))}>
-        <img className="iconItem"src="https://img.icons8.com/plasticine/512/filled-trash.png"/>
+        <img className="iconItem"src="https://img.icons8.com/plasticine/512/filled-trash.png"alt="bild"/>
         </span>
 
         </div>
         
-        
-        
-        
-        
-
-    
-
+       
     )
 }
 export default CartItem;
